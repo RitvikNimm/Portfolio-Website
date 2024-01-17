@@ -20,259 +20,146 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Ritvik Nimmagadda",
+  initials: "RN",
+  location: "Los Angeles, CA, PST",
+  locationLink: "https://www.google.com/maps/place/Los+Angeles,+CA/",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "ML/AI Engineer with a passion to automate stuff",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "I'm a AI engineer, researcher, and developer. I currently work as an AI software engineer at Cigna, where I'm working on building intelligent systems for finance use cases using Generative AI and LLMs",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://ritvikn.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "rnimmaga@usc.edu",
+    tel: "+12132450650",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/RitvikN18",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/ritvikn/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/RitvikN18",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Southern California",
+      degree: "Master's Degree in Computer Science",
+      start: "2022",
+      end: "2024",
     },
+    {
+      school: "International Institute of Information Technology, Bhubaneswar",
+      degree: "Bachelor's Degree in Computer Science and Engineering",
+      start: "2018",
+      end: "2022",
+    }
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Cigna",
+      link: "https://www.cigna.com/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "AI Software Engineer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "Aug 2023",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Spearheaded the development of a system that autonomously extracts key insights from daily reports provided by investment banking companies and answers questions from those reports, resulting in an anticipated cost savings of over $200k annually. Successfully implemented RAG (Retrieval Augmented Generation), using Redis vector DB for similarity search and integrating Langchain's OpenAI wrapper operating GPT4 LLM to boost natural language understanding, contributing to ~30% reduction in
+        manual effort. Developed robust backend API endpoints using Flask, ensuring seamless communication between the front-end and the underlying AI engine"
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "University of California, Los Angeles",
+      link: "https://www.ucla.edu/",
+      badges: ["Los Angeles, CA"],
+      title: "Research Intern",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "May 2023",
+      end: " August 2023",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
+        "Developed a Python tool automating patient data into flowcharts, reduced manual data processing time by 40%, and initiated NLP for standardized hospital data interpretation, enhancing healthcare efficiency. Designed a patient flow prediction AI model based on initial complaints and medical data, improving healthcare outcomes through data-driven insights. Created an interactive web app with React and Flask, enabling real-time execution and visualization of the algorithm"
+      },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
+      company: "Tiger Analytics",
+      link: "https://www.tigeranalytics.com/",
+      badges: ["Chennai, India"],
+      title: "Data Science Intern",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "Jan 2022",
+      end: "June 2022",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Designed and configured data pipeline using Apache Airflow, Python, and MySQL. Performed ETL testing on MySQL database and generated reports using Tableau. Enhanced work order efficiency by more than 12% through the implementation of an ML-based recommendation engine for technician assignments. Leveraged Docker, Azure Container Registry, and Azure Kubernetes Service to deploy and maintain ML models in production",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      company: "Omdena",
+      link: "https://www.omdena.com/",
+      badges: ["Remote"],
+      title: "Junior Machine Learning Engineer",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "July 2021",
+      end: "August 2021",
+      description: "Optimized PID engineering drawing digitization by utilizing the YOLOv5 model, following an exploration of multiple pre-trained object detection models. Reduced manual effort by 30% and expedited project timelines. Led a non-profit project, "Leveraging AI to Analyze the Socio-Economic Impact of Covid-19 in India," and constructed a machine learning model to identify the infected region in a Covid-19 patient's CT scans",
+    },
+      {
+      company: "Ontario Tech University",
+      link: "https://ontariotechu.ca/",
+      badges: ["Oshawa, Ontario"],
+      title: "AI Research Intern",
+      logo: NSNLogo,
+      start: "May 2021",
+      end: "August 2021",
+      description: "Built machine learning models for Audio Based Emotion Recognition using a multi-modal (audio and text) approach for use in companion robots, achieving more than 80% accuracy. Developed a web application using JavaScript to record audio constantly, classify emotion shown by the speaker, and alert the nurse when any negative emotion is detected. Presented the project to the Ontario Shores Centre staff and published a research paper in The Journal of Supercomputing",
+    },
+      {
+      company: "International Institute of Information Technology",
+      link: "https://www.iiit-bh.ac.in/",
+      badges: ["Bhubaneswar, India"],
+      title: "Undergraduate Researcher",
+      logo: NSNLogo,
+      start: "June 2020",
+      end: "December 2020",
+      description: "Improved performance of existing deep learning models for License Plate Corner Point Detection by performing feature selection on these models using various meta-heuristic optimization techniques. Reduced the SSD loss from 0.040 to 0.015 (61.54% decrease) by employing Genetic Algorithm for feature selection. Won the best paper award by presenting a research paper at an international conference",
     },
   ],
   skills: [
+    "Python", "C++", "Java", 
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React",
+    "Angular",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Flask",
+    "TensorFlow",
+    "PyTorch",
+    "AWS",
+    "Azure",
+    "LLMs",
+    "RAG",
+    "Redis",
+    "Weaviate",
+    "Langchain"
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
+      title: "Event Search Website",
+      techStack: [ "Angular", "Node.js", "AJAX", "Bootstrap"],
+      description: "A platform to search events and buy tickets",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "eventsearch.com",
+        href: "https://assignment8-frontend-382423.wl.r.appspot.com/search",
       },
     },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    
   ],
 } as const;
