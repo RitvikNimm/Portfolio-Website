@@ -75,8 +75,7 @@ export const RESUME_DATA = {
       start: "Aug 2023",
       end: "Present",
       description:
-        "Spearheaded the development of a system that autonomously extracts key insights from daily reports provided by investment banking companies and answers questions from those reports, resulting in an anticipated cost savings of over $200k annually. Successfully implemented RAG (Retrieval Augmented Generation), using Redis vector DB for similarity search and integrating Langchain's OpenAI wrapper operating GPT4 LLM to boost natural language understanding, contributing to ~30% reduction in
-        manual effort. Developed robust backend API endpoints using Flask, ensuring seamless communication between the front-end and the underlying AI engine"
+        "Spearheaded the development of a system that autonomously extracts key insights from daily reports provided by investment banking companies and answers questions from those reports, resulting in an anticipated cost savings of over $200k annually. Successfully implemented RAG (Retrieval Augmented Generation), using Redis vector DB for similarity search and integrating Langchain's OpenAI wrapper operating GPT4 LLM to boost natural language understanding, contributing to ~30% reduction in manual effort. Developed robust backend API endpoints using Flask, ensuring seamless communication between the front-end and the underlying AI engine"
     },
     {
       company: "University of California, Los Angeles",
