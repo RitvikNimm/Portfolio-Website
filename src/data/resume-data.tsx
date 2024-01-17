@@ -156,7 +156,7 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo,
       link: {
         label: "eventsearch.com",
-        href: "https://assignment8-frontend-382423.wl.r.appspot.com/search",
+        href: "https://assignment8-frontend-382423.wl.r.appspot.com/",
       },
     },
     
