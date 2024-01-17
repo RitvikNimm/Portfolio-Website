@@ -28,8 +28,8 @@ export const RESUME_DATA = {
     "ML/AI Engineer with a passion to automate stuff",
   summary:
     "I'm a AI engineer, researcher, and developer. I currently work as an AI software engineer at Cigna, where I'm working on building intelligent systems for finance use cases using Generative AI and LLMs",
-  avatarUrl: "https://github.com/RitvikNimm/Portfolio-Website/blob/main/src/images/logos/IMG_0504.png",
-  personalWebsiteUrl: "https://ritvikn.me",
+  avatarUrl: "https://avatars.githubusercontent.com/RitvikNimm",
+  personalWebsiteUrl: "https://ritvikn.vercel.app/",
   contact: {
     email: "rnimmaga@usc.edu",
     tel: "+12132450650",
