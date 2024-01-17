@@ -107,7 +107,7 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "July 2021",
       end: "August 2021",
-      description: "Optimized PID engineering drawing digitization by utilizing the YOLOv5 model, following an exploration of multiple pre-trained object detection models. Reduced manual effort by 30% and expedited project timelines. Led a non-profit project, "Leveraging AI to Analyze the Socio-Economic Impact of Covid-19 in India," and constructed a machine learning model to identify the infected region in a Covid-19 patient's CT scans",
+      description: "Optimized PID engineering drawing digitization by utilizing the YOLOv5 model, following an exploration of multiple pre-trained object detection models. Reduced manual effort by 30% and expedited project timelines. Led a non-profit project, 'Leveraging AI to Analyze the Socio-Economic Impact of Covid-19 in India,' and constructed a machine learning model to identify the infected region in a Covid-19 patient's CT scans",
     },
       {
       company: "Ontario Tech University",
